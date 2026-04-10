@@ -3,9 +3,7 @@
   "version": "1.0.0",
   "description": "真心话互动网站 - Netlify 版本",
   "scripts": {
-    "build": "npm run copy-files",
-    "copy-files": "mkdir -p dist && cp -r public/. dist/",
-    "dev": "netlify dev"
+    "build": "mkdir -p dist && echo 'Build complete'"
   },
   "dependencies": {
     "axios": "^1.6.0",
@@ -19,4 +17,3 @@
     "netlify-cli": "^17.0.0"
   }
 }
-
