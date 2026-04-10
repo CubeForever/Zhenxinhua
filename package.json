@@ -4,7 +4,7 @@
   "description": "真心话互动网站 - Netlify 版本",
   "scripts": {
     "build": "npm run copy-files",
-    "copy-files": "mkdir -p dist && cp -r public/* dist/ 2>/null || xcopy public\\* dist\\ /E /I /Y",
+    "copy-files": "mkdir -p dist && cp -r public/* dist/ 2>/dev/null || true",
     "dev": "netlify dev"
   },
   "dependencies": {
